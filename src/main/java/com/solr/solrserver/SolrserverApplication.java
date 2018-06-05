@@ -30,5 +30,10 @@ public class SolrserverApplication {
 	    String fetchresults() {
 	        return "Fetching all results from Solr Index";
 	    }
+	    
+	    @RequestMapping("/index")
+	    String indexresults() {
+	        return "Indexing all results from Solr Index";
+	    }
 	}
 }
